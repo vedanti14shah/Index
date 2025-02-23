@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blossom Cafe-Contact us</title>
+    <link rel="stylesheet" href="us.css">
+</head>
+<body>
+    <header class="content">
+		<div class="navbar">
+			<div class="logo">
+					<h2>Blossom</h2>
+			</div>
+		
+			<div class="menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="order.html">Menu</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+
+        <div class="contact-us">
+			<div class="contact-box">
+				<div class="contact-left">
+					<h3>Contact Us:</h3>
+					<form onsubmit="emailSend();reset(); return false;">
+						<div class="input-raw">
+							<div class="input-group">
+								<label>First Name :</label>
+								<input type="text" placeholder="Enter your first name" name="first_name" required>
+							</div>
+							<div class="input-group">
+								<label>Last Name :</label>
+								<input type="text" placeholder="Enter your last name" name="last_name" required>
+							</div>
+						</div>
+						
+						<div class="input-raw">
+							<div class="input-group">
+								<label>Phone Number :</label>
+								<input type="tel" placeholder="Enter your phone number" name="phn_num" required>
+							</div>
+							<div class="input-group">
+								<label>Your E-mail :</label>
+								<input type="email" placeholder="Enter your E-mail" name="e_mail" required>
+							</div>
+						</div>
+						<label>Type your message :</label>
+						<textarea rows="5" placeholder="Type here...." name="text"></textarea required>
+						
+						<button class="btn" onclick= "location.href='submit.html'">Submit</button>
+					</form>
+				</div>
+				
+				<div class="contact-right">
+					<h3>Reach Us:</h3>
+					
+					<table>
+						<tr>
+							<td>E-mail :</td>
+							<td>darkcoding11@gmail.com</td>
+						</tr>
+						<tr>
+							<td>Phone :</td>
+							<td>+91 7600827752</td>
+						</tr>
+						<tr>
+							<td>Address :</td>
+							<td>Seth Street,<br>
+							Near three gates.<br>
+							At-Post: Chikhodara.<br>
+							Ta.Dist: Anand - 388320.</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+    </header>
+</body>
+</html>

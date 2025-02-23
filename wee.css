@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Vedana",sans-serif;
+}
+
+.content{
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7)80%, rgba(0,0,0,0.7)80%), url("cafe2.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+	background-attachment: fixed;
+}
+
+.content>h1{
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+	text-align: center;
+	color: white;
+	font-weight: 400;
+}
+
+.content p{
+	color: white;
+	text-align: center;
+	margin-top: 200px;
+	font-size: 20px;
+}
